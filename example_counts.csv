@@ -1,0 +1,9 @@
+gene_id,Control_1,Control_2,Treatment_1,Treatment_2
+geneA,120,98,210,199
+geneB,0,2,5,8
+geneC,340,315,280,301
+geneD,12,17,48,53
+geneE,55,61,72,69
+geneF,0,0,3,1
+geneG,880,910,1020,995
+geneH,25,29,31,35
