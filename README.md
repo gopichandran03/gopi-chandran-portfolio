@@ -1,81 +1,63 @@
-# Gopi Chandran | Biotechnology, Bioinformatics & Operations
+# Gopi Chandran | Biotechnology • Bioinformatics • Operations
 
-MPS Biotechnology student at the University of Maryland, Baltimore County (UMBC), with a B.Tech. in Biotechnology from Tamil Nadu Agricultural University (TNAU). My interests sit at the intersection of biotechnology R&D, reproducible bioinformatics, biopharmaceutical operations, and commercialization.
+MPS Biotechnology student at the University of Maryland, Baltimore County (UMBC), with a B.Tech. in Biotechnology from Tamil Nadu Agricultural University (TNAU). Interests include biotechnology R&D, reproducible bioinformatics, mammalian cell culture operations, and biotechnology commercialization.
 
-## Focus areas
-- **Biopharmaceutical operations:** laboratory readiness, mammalian cell culture workflows, documentation, process consistency, and cross-functional coordination.
-- **Bioinformatics & genomics:** RNA-seq analysis, comparative genomics, functional annotation, and biological database development.
-- **Biotechnology commercialization:** market landscaping, competitive intelligence, partner screening, and translating technical programmes into decision-support materials.
-- **Data and computing:** Python, R, Linux, MySQL, and selected bioinformatics tools.
+> **Portfolio integrity note:** The code examples in this repository are reproducible demonstrations and workflow templates. They do not claim to reproduce proprietary employer work or unpublished research results. Replace example inputs with authorized data before using these workflows for research. Never upload confidential, patient-identifiable, employer-owned, or otherwise restricted data.
 
-## Selected projects
+## Areas of focus
+- **Bioinformatics:** RNA-seq workflow design, transcriptome analysis, functional annotation, comparative genomics, biological databases.
+- **Biopharmaceutical operations:** laboratory readiness, mammalian cell culture, documentation, process consistency, and quality-conscious work.
+- **Commercialization and coordination:** partner screening, competitive intelligence, market landscape analysis, project coordination, and scientific communication.
+- **Computing:** Python, R, Linux, MySQL, and selected bioinformatics tools.
 
-### RiceStressDB — Rice stress gene-expression database
-A database project organizing rice gene-expression information across biotic and abiotic stress conditions.
+## Selected work
 
-- Organized **1,200+ genes** across **17 stress conditions**.
-- Integrated gene annotations and stress-related metadata.
-- Built with MySQL and PHP.
-- Government of India copyright registration: **SW-35001/2025-CO**.
+### 1. RiceStressDB — agricultural biotechnology database
+A database project organizing rice stress gene-expression information.
+- Organized 1,200+ genes across 17 biotic and abiotic stress conditions.
+- Integrated functional annotations and stress metadata.
+- MySQL and PHP.
+- Government of India copyright registration reported as SW-35001/2025-CO.
 
-### Moringa oleifera — RNA-seq transcript profiling
-Transcriptome analysis project using a reproducible bioinformatics workflow.
+The repository currently includes a **demonstration SQL schema and sample records**, not the original production database.
 
-- Tools used: HISAT2, StringTie, TransDecoder, eggNOG-mapper, and InterProScan.
-- Reported assembly size: **79.79 Mb**; N50: **2,094 bp**; transcripts longer than 200 bp: **66,079**.
-- A future public repository should include only files and outputs that can legally be shared.
+### 2. RNA-seq workflow template
+A small, reproducible Python quality-control summary workflow is included under `workflows/rnaseq/`. It operates on a clearly labelled example count matrix and generates summary tables and a plot. It is **not** a replacement for raw-read QC, alignment, differential-expression analysis, or functional annotation. The README in that folder explains the next steps for a full HISAT2/StringTie-based pipeline.
 
-### Bamboo comparative genomics
-Research internship project at the Forest Research Institute (FRI), Dehradun, focused on comparative genomics among bamboo species.
+### 3. Quality and process monitoring demonstration
+A Python example under `workflows/quality_control/` demonstrates descriptive process monitoring using synthetic measurements. It illustrates how to calculate summary statistics, flag observations outside illustrative limits, and document assumptions. The example is educational, **not a validated QC method or a GMP release test**.
 
-- Focus: comparative sequence analysis and interpretation of genomic similarities and differences.
-- Add methods, species names, datasets, and validated findings when preparing a shareable project repository.
+### 4. Research background
+- *Moringa oleifera* RNA-seq transcript profiling: tools used included HISAT2, StringTie, TransDecoder, eggNOG-mapper, and InterProScan. Reported project metrics: 79.79 Mb assembly size, N50 2,094 bp, and 66,079 transcripts >200 bp.
+- Bamboo comparative genomics: research internship at Forest Research Institute (FRI), Dehradun.
+- Pivot Bio commercialization strategy: assessed market opportunity, competitive positioning, target customers, value proposition, go-to-market strategy, and exit considerations. The team received the highest simulated investment allocation ($1 million) among five finalist teams.
 
-### Pivot Bio — Agricultural biotechnology commercialization strategy
-A strategy project evaluating a biotechnology startup's market opportunity and commercialization approach.
-
-- Evaluated market opportunity, competitive positioning, target customers, value proposition, go-to-market strategy, and exit considerations.
-- Presented as one of five finalist teams to a five-member investment panel.
-- Received the highest simulated investment allocation: **$1 million**, more than $300,000 above the next-ranked team.
-
-### Mammalian cell culture & laboratory operations
-Graduate laboratory experience involving HEK293 and HTB-182 cell lines.
-
-- Cell maintenance using internally modified laboratory protocols.
-- Experience with CO₂ incubators, biosafety cabinets, microscopy, and automated/manual cell counting, as applicable to the work performed.
-- Emphasis on aseptic technique, contamination prevention, laboratory readiness, and documentation.
-- Contributed literature review and preliminary investigation to a xenotransplantation-related project examining flow-cytometry approaches for chimerism detection.
-
-> This section describes experience, not a claim of GMP manufacturing, validated processes, or independent assay validation.
-
-## Professional experience
-
+## Experience highlights
 ### Regenova Pharmaceuticals — Business Development and Operations Management Intern
-- Screened **20+** prospective industry and academic partners; **5** advanced to the next evaluation stage.
-- Prepared market landscape reports and competitive intelligence analyses across biotherapeutics, AI-enabled drug discovery, oncology, and infectious diseases.
+- Screened 20+ potential industry and academic partners; five advanced to the next evaluation stage.
+- Prepared market landscape and competitive-intelligence materials across biotherapeutics, AI-enabled drug discovery, oncology, and infectious diseases.
 - Translated scientific programmes into partnership, proposal, commercialization, and funding materials.
-- Coordinated scientific, commercial, and partnership workstreams.
 
 ### UMBC — Graduate Assistant / Teaching Assistant
-- Supported coordination across **13+** undergraduate and graduate biotechnology/life-science courses.
-- Helped coordinate **100+** class sessions and **60+** guest speakers, including scheduling, logistics, faculty support, and documentation.
-- Supported laboratory readiness and mammalian cell culture activities.
+- Supported coordination across 13+ biotechnology and life-science courses.
+- Helped coordinate 100+ class sessions and 60+ guest speakers.
+- Laboratory experience includes HEK293 and HTB-182 cell culture, internally modified laboratory protocols, CO₂ incubators, biosafety cabinets, microscopy, and automated/manual cell counting, as applicable to work performed.
+- Contributed literature review and preliminary investigation to a xenotransplantation-related project examining flow-cytometry approaches for chimerism detection.
 
 ## Technical toolkit
-
 **Bioinformatics:** HISAT2, StringTie, TransDecoder, eggNOG-mapper, InterProScan, BLAST, MEGA, KEGG  
-**Data & scripting:** Python, R, Linux, MySQL, PHP  
+**Data:** Python, R, Linux, MySQL, PHP  
 **Biotechnology:** Mammalian cell culture, molecular biology, genomics, RNA-seq, functional annotation  
-**Operations & commercialization:** Project coordination, documentation, stakeholder communication, market research, competitive intelligence, partner evaluation
+**Operations:** Documentation, project coordination, stakeholder communication, market research, competitive intelligence
 
 ## Education
 - **MPS Biotechnology**, University of Maryland, Baltimore County (UMBC) — expected May 2027
 - **B.Tech. Biotechnology**, Tamil Nadu Agricultural University (TNAU) — GPA 3.70/4.00
 
-## Contact
-- Email: `gopic2@umbc.edu`
-- LinkedIn: add your public LinkedIn URL
-- GitHub: add your GitHub username after creating your account
+## Run the examples locally
+See each workflow folder for commands and limitations. Python examples require Python 3.10+ and packages listed in `requirements.txt`.
 
-## Reproducibility and responsible sharing
-This portfolio is an overview of my work. Each project repository should explain its research question, data source, methods, software versions, workflow, results, limitations, and citation information. Do not upload confidential employer data, unpublished collaborator data, patient information, proprietary code, or restricted datasets.
+## Contact
+- Email: gopic2@umbc.edu
+- LinkedIn: https://www.linkedin.com/in/gopichandran03/
+- GitHub: https://github.com/gopichandran03

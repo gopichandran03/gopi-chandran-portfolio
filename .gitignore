@@ -1,19 +1,14 @@
-# Python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
-
-# R
 .Rhistory
 .RData
 .Rproj.user/
-
-# Data and local outputs: review before committing
+.env
+.DS_Store
 *.fastq
 *.fastq.gz
 *.bam
 *.sam
 *.vcf
-.env
-.DS_Store
